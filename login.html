@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>login</title>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/log.css">
+
+</head>
+<body>
+
+<form onsubmit="return(validate());" name="login" action="login.php" method="post">
+
+ 
+
+   <input type="tel" placeholder="Mobile No." name="telephone" maxlength="10">
+
+   
+   
+   <input type="password" placeholder="Password" name="password">
+ 
+   <input type="submit" value="Log in">
+   
+   <div class="or">
+   	or
+   </div>
+  
+   <a href="signup.html"><input type="button" value="Sign up"></a>
+
+
+
+
+
+</form>
+
+<script>
+	
+
+   function validate()
+   {
+           if(document.login.telephone.value=="")
+        {
+
+             alert("Please Provide your Mobile No.");
+             document.login.telephone.focus();
+             return false;
+
+
+           }
+
+
+       
+           if(document.login.password.value=="")
+        {
+
+             alert("Password Required!!!");
+             document.login.password.focus();
+             return false;
+
+
+           }
+
+          return true;
+
+
+
+
+
+   }
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

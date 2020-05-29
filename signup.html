@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Signup</title>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/signup.css">
+
+</head>
+<body>
+ 
+
+
+
+<form onsubmit="return(validate());" name="signup" action="signup.php" method="post">
+
+ <input type="text" placeholder="First Name" name="fname">
+
+  <input type="text" placeholder="Last Name" name="lname">
+
+   <input type="tel" placeholder="Mobile No." name="telephone" maxlength="10">
+
+   <input type="email" placeholder="Email (optional)" name="email">
+   
+ 	   
+   <input type="password" placeholder="Password" name="password">
+ 
+   <input type="submit" value="Sign Up">
+
+
+</form>
+
+<script>
+
+   function validate()
+   {
+        if(document.signup.fname.value=="")
+        {
+
+             alert("Please Provide your First Name");
+             document.signup.fname.focus();
+             return false;
+
+
+           }
+          
+           if(document.signup.lname.value=="")
+        {
+
+             alert("Please Provide your Last Name");
+             document.signup.lname.focus();
+             return false;
+
+
+           }
+
+          
+           if(document.signup.telephone.value=="")
+        {
+
+             alert("Please Provide your Mobile No.");
+             document.signup.telephone.focus();
+             return false;
+
+
+           }
+          
+
+               
+           if(document.signup.password.value=="")
+        {
+
+             alert("Password Required!!!");
+             document.signup.password.focus();
+             return false;
+
+
+           }
+
+          return true;
+
+   }
+
+
+
+</script>
+
+
+
+</body>
+</html>

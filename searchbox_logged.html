@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>ORDER FOOD ONLINE</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+
+ <body>
+     <header class="group">      
+
+	<a href="Home_Page_Logged.html"><img src="OnlineFoodOrdering.png"></a>
+	<div class="area"><strong><u>Sector 128</u></strong></div>
+        <div class="location">Noida,Uttar Pradesh,India</div>
+	<nav class="navweb">
+		<ul class="group">
+			<li><a href="searchbox_logged.html">Search</a></li>
+                        
+			<li><a href="help.html">Help</a></li>
+			<li><a href="Start Page.html">Sign Out</a></li>
+			<li><a href="empty_cart_logged.html">Cart</a></li>
+		</ul>	
+
+        </nav>          
+
+     </header>
+     <!--search box-->
+
+     <!--<div id="search">
+     <form class="example" action="action_page.php">
+   <input style="font-size: 50px ; border-radius: 8px; outline:none; box-shadow: 0 0 5 rgba(0,0,0,0.4);"  type="text" placeholder="Search.." name="search">
+        <button style="font-size: 50px; border-radius: 5px;" type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    </div>-->
+
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+<ul id="myUL">
+  <li><a href="dominos_logged.html">Domino's Pizza</a></li>
+  <li><a href="backstreetkitchen_logged.html">Backstreet Kitchen</a></li>
+
+  <li><a href="dunkin_logged.html">Dunkin Donuts</a></li>
+  <li><a href="cake_logged.html">The Cake Expert's</a></li>
+
+  <li><a href="parathe_logged.html">Chandni Chowk Ke Mashhoor Parathe</a></li>
+  <li><a href="sagar_logged.html">Sagar Ratna</a></li>
+  <li><a href="rollsking_logged.html">RollsKing</a></li>
+  <li><a href="baskin_logged.html">Baskin Robbins</a></li>
+  <li><a href="burger_logged.html">Burger King</a></li>
+</ul>
+
+<script>
+  function myFunction() {
+    // Declare variables
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+  
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
+    }
+  }
+  </script>
+
+<footer>
+  
+<img src="OnlineFoodOrdering.png">
+<nav class="navweb1">
+  <ul class="group">
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Read our blog</a></li>
+    <li><a href="#">Buy gift cards</a></li>
+    <li><a href="#">Sign up to deliver</a></li>
+    <li><a href="#">Add your restaurant</a></li>
+  </ul>
+</nav>
+<nav class="navweb2">
+  <ul class="group">
+    <li><a href="#">Get help</a></li>
+    <li><a href="#">read FAQs</a></li>
+    <li><a href="#">view all cities</a></li>
+    <li><a href="#">Restaurants near me</a></li>
+    <li><a href="#">English</a></li>
+  </ul>
+</nav>
+ 
+ <div class="app">
+<a href="#"><img src="d0558d91063038236b60e3ef71fdc1fd.svg"></a>
+<a href="#"><img src="cf6dad406fdfdcd290fd40de9008ae50.png"></a>
+</div>
+</footer>
+
+
+   
+
+</body>
+    </html>
