@@ -1,0 +1,87 @@
+body{
+
+text-align:center;
+
+margin-top:180px;
+  
+
+}
+
+
+html{
+padding:0px;
+margin:0px;
+background-image: url("../pexels-photo-1640777.jpeg");
+background-size:100%; 
+background-attachment: fixed;
+background-position:center center;
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+
+
+input[type="tel"],
+input[type="password"]{
+
+  width: 300px;  
+   display: block;
+  box-sizing:border-box;
+
+  padding: 0px 10px;
+  height: 40px;
+  
+  
+
+}
+
+input[type="tel"],
+input[type="password"],
+input[type="submit"],
+input[type="button"]{
+font-family: tahoma;
+font-size:100%;
+  margin-bottom:20px;
+
+}
+form{
+
+  display:inline-block;
+
+
+border:1px solid #E67E22;
+
+background-color: rgba(211,211,211,0.6);
+padding: 50px 80px;
+border-radius:20px;
+
+}
+
+input[type="submit"],input[type="button"]{
+color:white;
+padding: 10px 15px;
+width:300px;
+border:1px solid #E67E22;
+border-radius:5px;
+background-color:#E67E22;
+
+
+}
+input[type="submit"]:hover{
+background-color:#CD552F;
+
+}
+
+
+input[type="button"]:hover{
+background-color:#CD552F;
+
+}
+
+.or{
+
+    font-size: 15px;
+    font-family: Tahoma;
+    margin-bottom: 20px;
+
+}

@@ -1,0 +1,314 @@
+body{
+width: 100%;
+height: 100%;
+margin: 0;
+padding: 0;
+background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 75%, rgba(0,0,0,1) 100%);
+}
+
+header img{
+    height:5%;
+    width:5%;   
+   float: left;	
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 150px;
+   
+   
+}
+
+.area{
+
+   float: left;
+  margin-top: 50px;
+   margin-bottom: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+  font-family: Tahoma;
+
+}
+.location{
+
+color: #8F8F8F;
+float: left;
+ margin-top: 50px;
+  margin-bottom: 20px;
+font-family: Tahoma;
+
+
+
+}
+
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+
+.navweb li{
+   float: left;
+   list-style: none;
+  
+}
+.navweb a{
+display: block;
+text-decoration: none;
+font-size: 125%;
+font-family: Tahoma;
+color: black;
+padding-right: 50px;
+box-sizing: border-box;
+
+
+}
+.navweb{
+ margin-left: 800px;
+ margin-top: 50px;
+
+}
+.navweb ul{
+
+ margin:0;
+ padding:0;
+
+}
+.navweb a:hover{
+
+color:#E67E22;
+
+}
+.checked{
+   color:orange;
+
+}
+#text{
+   
+   margin-top:35px;
+   background-image: linear-gradient(to top, #888f92, #a5aaad, #c3c5c8, #e1e2e3, #ffffff);
+   width:700px;
+   height:230px;
+   position: relative;
+   background-size: 600% 400%;
+
+
+}
+#text h1{
+   margin-left: 80px;
+   padding-top:20px;
+}
+
+#text p{
+   margin-left: 80px;
+   padding-bottom:20px;
+}
+.container { 
+   width:1200px; 
+   height:250px; 
+   background-image: linear-gradient(to top, #888f92, #a5aaad, #c3c5c8, #e1e2e3, #ffffff);
+   background-size: 600% 400%;
+   padding-top:20px; 
+   padding-left:15px; 
+   padding-right:15px; 
+} 
+#st-box { 
+   float:left; 
+   width:370px; 
+   height:80px; 
+   background-color:white; 
+   border:solid gray; 
+   border-width: thin;
+} 
+#st-box img{
+   
+   width:170px;
+   height: 80px;
+   
+}
+#st-box button {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border: none;
+   padding: 3px;
+   color: white;
+   margin-top: 17px;
+   background-color:green;
+   text-align: center;
+   cursor: pointer;
+   width: 150px;
+   font-size: 18px;
+} 
+#nd-box { 
+   float:left; 
+   width:370px; 
+   height:80px; 
+   background-color:white;  
+   border:solid gray; 
+   border-width: thin;
+   margin-left:43px; 
+}
+#nd-box img{
+   
+   width:170px;
+   height: 80px;
+   
+} 
+#nd-box button {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border: none;
+   padding: 3px;
+   margin-right:160px;
+   
+   color: white;
+   background-color:green;
+   text-align: center;
+   cursor: pointer;
+   width: 150px;
+   font-size: 18px;
+} 
+
+#rd-box { 
+   float:right; 
+   width:370px; 
+   height:80px; 
+   background-color:white; 
+   border:solid gray;
+   border-width: thin; 
+} 
+#rd-box img{
+   
+   width:170px;
+   height: 80px;
+   
+}
+#rd-box button {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border: none;
+   padding: 3px;
+   margin-right:160px;
+   color: white;
+   background-color:green;
+   text-align: center;
+   cursor: pointer;
+   width: 150px;
+   font-size: 18px;
+} 
+
+#st2-box { 
+   float:left; 
+   width:370px; 
+   height:80px; 
+   background-color:white; 
+   border:solid gray; 
+   border-width: thin;
+   margin-top:40px;
+} 
+#st2-box img{
+   
+   width:170px;
+   height: 80px;
+   
+} 
+#st2-box button {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   border: none;
+   padding: 3px;
+   margin-right:160px;
+   color: white;
+   background-color:green;
+   text-align: center;
+   cursor: pointer;
+   width: 150px;
+   font-size: 18px;
+} 
+footer{
+  padding: 0;
+  margin-top: 100px;
+
+}
+footer img{
+
+height: 150px;
+width: auto;
+
+margin-left:250px;
+float:left;
+}
+.navweb1{
+
+ float:left;
+ 
+
+}
+
+
+.navweb1 ul li{
+
+margin-top:17px;
+margin-left:300px;
+list-style: none;
+
+}
+.navweb1 ul li a{
+
+ text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-family: Tahoma;
+ color:#E67E22;
+}
+
+
+.navweb2{
+
+ float:left;
+
+
+}
+
+
+.navweb2 ul li{
+
+
+margin-left:200px;
+list-style: none;
+
+  margin-top: 17px;
+}
+.navweb2 ul li a{
+
+ text-decoration: none;
+  font-size: 20px;
+ color:#E67E22;
+  font-family: Tahoma;
+ 
+ }
+.navweb2 ul li a:hover{
+
+border-bottom: 2px solid white;
+
+}
+.navweb1 ul li a:hover{
+
+border-bottom: 2px solid white;
+
+}
+
+footer .app img{
+margin: 0;
+padding: 0;
+
+width: 150px;
+height: auto;
+margin-left: 80px;
+
+
+}
